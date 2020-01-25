@@ -1,0 +1,32 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+    <title>#MoodTodaY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+    <h1 align="center">#MoodToday Challange<br>
+            -Sololearn
+    </h1><br>
+    <h2 >My mood is random during the day like Emojies</h2><br>
+    <h3 id="emoji" onclick=getEmoji()>😁</h3><br>
+    <p id="meaning" onclick=getEmoji()>Happy</p>
+    <script>
+        alert("🤩Tap on the Emoji to See a different Mood and Don't forget to encourage🤩")
+var smiley = ["😃","🤣","☺","🙃","😉","😌","🤨","🤩","😟","😭"]
+var smileymeaning = ["Boundless Joy","ROFL","Bliss","Don't Take Me Seriously","Wink","Relaxed, thankful and free of worries","Disapproval","Very Excited","Worried","Very Sad"] 
+emoji=document.getElementById('emoji')
+meaning = document.getElementById('meaning')
+function getEmoji() {
+    index=Math.floor((Math.random() * 10))
+    meaning.innerHTML=smileymeaning[index];
+    emoji.innerHTML=smiley[index];
+}
+getEmoji()
+    </script>
+</body>
+</html>

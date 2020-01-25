@@ -1,0 +1,97 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+iframe{
+	border-radius: 25px;
+}
+img{
+	border-radius: 25px;;
+}
+body {
+    font-family: 'neon', cursive;
+	font-size: 13pt;
+	height: 100%;
+	background-color: #808000;
+	background-size: cover;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+    padding: 10px;
+    margin: 0;
+}
+h2 styles{
+	align-self: center;
+	border: 5px dashed #ff6633;
+	background:green;
+	padding: 10px;
+	color: #7000ff;
+	padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    opacity: 0.8;
+}
+.section{
+	font-family:'Handlee',cursive; 
+	color:#99ffcc;
+	font-size: 30px
+}
+.para{
+	color:#e6e600;
+}
+.pics{
+	opacity: 0.8;
+}
+h2 panname{
+	border: 4px dashed #80ffbf;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 25px;;
+	font-size: 90%;
+}
+.names{
+	text-align: center;
+	color: #0f0;
+	font-style: bold;
+	font-size: 80%;
+}
+h4 border
+{
+	border: 4px dashed #ffffff;
+	margin: 5px;
+	border-radius: 25px;;
+	padding: 5px;
+	font-size:80%;
+}
+p bordpara
+{
+	border: 2px dashed #00f;
+	margin:5px;
+	border-radius: 25px;;
+	padding: 5px;
+}
+p movies{
+	font-size: 160%;
+}
+p moviesdetails{
+	color: #e6e600;
+	align-items: left;
+	font-size: 130%;
+}
+p songnames{
+	font-size: 75%;
+	color: #99ccff;
+}
+p songname{
+	font-size: 150%;
+	color: #99ccff;
+}
+#header img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.img-circle {
+    border: 4px dashed white;
+    border-radius: 60%;
+ }

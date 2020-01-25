@@ -1,0 +1,285 @@
+@media(orientation:landscape){
+    body{
+        margin-right: 0;
+        margin: 0;
+        background: url('https://cdn.pixabay.com/photo/2018/05/31/13/13/rain-3443977_960_720.jpg');
+    }
+    #heading{
+        font-family: 'Special Elite', cursive;
+        color:white;
+        mix-blend-mode: difference;
+        text-align:center;
+        font-size:7vh;
+        padding-top:3vw;
+        padding-left:32vw;
+        top:-3.5vh;
+    }
+    h1{
+        position:absolute;
+    }
+    #part1 {
+        position: absolute;
+        border-radius: 4vh;
+        background-image: url('https://cdn.pixabay.com/photo/2018/05/31/13/13/rain-3443977_960_720.jpg');
+        background-repeat:  no-repeat;
+        background-size: cover;
+        height: 49vh;
+        width: 99vw;
+        z-index: 2;
+        margin-top: 0.5vh;
+        margin-left: 0.5vw;
+        margin-right: 0;
+    }
+    #part2 {
+        width: 99vw;
+        height: 49vh;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 50.5vh;
+        margin-left: 0.5vw;
+        border-radius: 4vh;
+        background-image: url('https://cdn.pixabay.com/photo/2018/05/31/13/13/rain-3443977_960_720.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    #searchbox{
+        background-color:black;
+        background-image: url("https://cdn.pixabay.com/photo/2017/08/01/20/06/storm-2567670_960_720.jpg");
+        background-size: cover;
+        position:relative;
+        margin-top:15vh;
+        margin-left:auto;
+        margin-right:auto;
+        width:60vw;
+        height:60vh;
+        border-radius:5vw;
+    }
+    #inputs{
+        border-radius:50px;
+        outline:none;
+        margin-top:25vh;
+        width:50vw;
+        border-color: white;
+        color:white;
+        mix-blend-mode: difference;
+        border-style: solid;
+        background-color:transparent;
+        font-size: 4vh;
+        font-style:bold;
+        transition-delay: .05s;
+        text-align:center;
+        height:5vh;
+        font-family: 'Special Elite', cursive; 
+    }
+    #sub-head{
+        font-size:5.5vw;
+        margin-left:6vw;
+        color: whitesmoke   ;
+        font-family: 'Special Elite', cursive;
+        cursor:default;
+    }
+    #sub-head:hover{
+        font-size: 6.5vw;
+        transition:ease-in-out;
+    }
+    .sbutton{
+        margin-top:5vh;
+        font-size:10vh;
+        color:white;
+        mix-blend-mode: difference;
+    }
+    .sbutton:hover{
+        padding: 2vh;
+        cursor: pointer;
+        font-size:12vh;
+        transition-duration: .5s;
+        background:transparent;
+        border-radius: 20%;
+        color:white;
+        mix-blend-mode: difference;
+    }
+
+
+/***********************************PopUp CSS**********************************************/    
+    #d1{
+        border: none;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        opacity: 1;
+        background: url("https://cdn.pixabay.com/photo/2013/10/02/23/03/dawn-190055_960_720.jpg");
+        position: absolute;
+        display: none;
+        background-size: cover;
+    }   
+    .popup {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60vw;
+        height: 60vh;
+        background-color: #fefdfd;
+        border-radius: 10px;
+        color:white;
+        margin-top: 27vh;
+        margin-left: 18vw;
+    }    
+    #hum-num{
+        font-size:3vw;
+        margin-left:-26vw;
+        color:white;
+        mix-blend-mode: difference;
+        margin-top:2vh;
+        font-family: 'Special Elite', cursive;
+
+    }
+    #unit{
+        position:absolute;
+        font-size:2vw;
+        color:white;
+        mix-blend-mode: difference;
+        margin-top:0vw;
+        font-family: 'Special Elite', cursive;
+        margin-left:-29vw;
+    }
+    #flag{
+        position: absolute;
+        padding-left: 22vw;
+        padding-top: 3vh;
+        height: 6.941431670281996vh;    
+    }
+    #country{
+        position: absolute;
+        padding-left: 23vw;
+        color:white;
+        mix-blend-mode: difference;
+        font-family: 'Special Elite', cursive;
+        padding-top: 10vh;
+        font-size: 3vh;    
+    }
+    #city{
+        margin-top:6vh;
+        font-family: 'Special Elite', cursive;
+        color:white;
+        mix-blend-mode: difference;
+        font-size:7vh;
+    }
+    #temp-digit{
+        margin-top: 6vh;
+        font-size:20vh;
+        text-align: center;
+        font-family: 'Special Elite', cursive;
+        color:white;
+        mix-blend-mode: difference;
+    }
+    #temp-unit{
+        margin-top:2vh;
+        text-align: center;
+        font-size:8vh;
+        color:white;
+        mix-blend-mode: difference;
+        font-family: 'Special Elite', cursive;
+    }
+    .head2{
+        margin-left: -17vw;
+        text-align:center;
+        margin-top:4vh;
+        font-size:4vw;
+        color:white;
+        mix-blend-mode: difference;
+        font-family:'Special Elite',cursive;
+    }
+    #exit{
+        font-size: 5vw;
+        right: 1vw;
+        top: 1vw;
+        position: absolute;
+        color:white;
+        mix-blend-mode: difference;
+    }
+    #exit:hover{
+        cursor: pointer;
+        padding: 2vh;
+        color:blue;
+        mix-blend-mode: difference;
+        border-radius: 50%;
+    }
+    .extraInfo{
+        display: inline-block;
+        background: #5CDB95;
+        color:white;
+        mix-blend-mode: difference;
+    }
+    #pressure{
+        padding-left: 10vw;
+        color:white;
+        mix-blend-mode: difference;
+    }
+    .list,.data{
+        display: block;
+        float:left;
+        font-size: 3vw;
+        color:white;
+        mix-blend-mode: difference;
+        margin-left: 8vw;
+        text-align: center;
+        /*margin-left:0;*/
+        list-style: none;
+    }
+    .data{
+        margin-top: 2vh;
+    }
+    #wtype{
+        color:white;
+        mix-blend-mode: difference;
+        margin-left: 6vw;
+    }
+    #pdigit{
+        color:white;
+        mix-blend-mode: difference;
+        margin-left: 8vw;
+    }
+    #wspeed{
+        color:white;
+        mix-blend-mode: difference;
+        margin-left:2vw; 
+    }
+    #long{
+        color:white;
+        mix-blend-mode: difference;
+        margin-left: 2vw;
+    }
+    #lati{
+        color:white;
+        mix-blend-mode: difference;
+    }
+    .maxtemp{
+        margin-top:24vw;
+        font-size: 3vw;
+        margin-left: 1vw;
+        color:white;
+        mix-blend-mode: difference;
+    }
+    .mintemp{
+        font-size: 3vw;
+        margin-top:-6vw;
+        margin-left:41vw;
+        color:white;
+        mix-blend-mode: difference;
+    }
+    #maxdigit{
+        margin-top:4vw;
+        margin-left:5vw;
+        color:white;
+        mix-blend-mode: difference;
+    }
+    #mindigit{
+        margin-top:4vw;
+        margin-left:44vw;
+        color:white;
+        mix-blend-mode: difference;
+    }
+}

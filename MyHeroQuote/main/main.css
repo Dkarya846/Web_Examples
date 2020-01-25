@@ -1,0 +1,37 @@
+body{
+    background: #4ABDAC;
+    font-family: 'Yatra One', cursive;
+
+}
+#head{
+    padding:0;
+    margin: 0;
+    height: 15%;
+    align-content: center;
+    background: darkorange;
+    color: white;
+    font-size:4vh;
+    border:2px whitesmoke solid;
+    border-radius: 50px;
+    font-family: 'Yatra One', cursive;
+}
+pre{
+    font-family: 'Yatra One', cursive;
+}
+img {
+    height: 70vh;
+    width: 61vw;
+    margin-left: 20vw;
+}
+#footer {
+    padding: 0;
+    margin: 0;
+    height: 20%;
+    align-content: center;
+    background: white;
+    font-size: 5vh;
+    color: darkorange;
+    border: 2px darkorange solid;
+    border-radius: 50px;
+    font-family: 'Yatra One', cursive;
+}

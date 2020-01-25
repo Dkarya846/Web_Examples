@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice|Fondamento|Roboto+Slab|Abril+Fatface|Arvo|Berkshire+Swash|Charm|Coiny|Courgette|Lobster|Merienda|Special+Elite" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="about.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="WFLandScape.css" rel="stylesheet" type="text/css">
+    <link href="WFPortrait.css" rel="stylesheet" type="text/css">
+    <title>Weather Forcast</title>
+    <script src="About.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="main_page">
+        <div id="part1" >
+            <h1 id="heading" align="center">The Weather App</h1>
+
+            <div id="searchbox" align="center">
+                <h1 id="sub-head">Enter your City</h1>
+                <input id="inputs" type="text"><br><br>
+                <i class="fab fa-searchengin sbutton" id = "sbutton" onclick="loadDialog(true)"></i>
+            </div>
+        </div>
+        <div id="part2">
+            <div class='circle1' onclick="pop()">
+                <div class="menu-items1">
+                    <div class="item1" id="item1">
+                        <center>
+                            <a href="https://www.sololearn.com/Profile/1514174" >
+                                <img class="profile" src="https://api.sololearn.com/Uploads/Avatars/1514174.jpg" alt="Deepak Kumar" width="100%" height="100%"> 
+                            </a>
+                        </center>
+                    </div>
+                    <div class="item2" id="item2">
+                        <center>
+                            <a href="#" >
+                                <img class="profile" src="data:image/png;base64,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" alt="GitHub" width="100%" height="100%"> 
+                            </a>
+                        </center>
+                    </div>
+                    <div class="item3" id="item3">
+                        <center>
+                            <a href="https://www.sololearn.com/Profile/1774025" >
+                                <img class="profile" src="https://api.sololearn.com/Uploads/Avatars/1774025.jpg" alt="Deveder Kumar" width="100%" height="100%">
+                            </a>
+                        </center>
+                    </div>    
+                    <div class="item4" id="item4">
+                            <center>
+                                <a href="#" >
+                                    <i class="fab fa-dochub dev"></i>
+                                </a>
+                            </center>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div id ="d1">
+            <div>
+                <i id = "exit" class="fas fa-sign-out-alt" onclick="loadDialog(false)"></i>
+            </div>
+            <div class ="popup" id='image'>
+                <div class="p-head">
+                    <div id="htext">
+                        <h1 class="head2">The Weather App</h1>
+                        <div id="country">IN</div>
+                        <img id = "flag" src="">
+                    </div>
+                    <div id = "hum-num">9</div>
+                    <div id ="unit">
+                        Humidity
+                    </div>
+                </div>
+                <div id = "city">Delhi</div>
+                <div id ="temp-digit"> -16.45°</div>
+                <div id = "temp-unit">Celcius</div>
+            </div>
+            <ul id="ul">
+                <li class="list">Weather Type</li>
+                <li class="list">Pressure</li>
+                <li class="list">Wind Speed</li>
+                <li class="list">Coordinates</li>
+            </ul>
+            <ul id="ul1">
+                <li class="data"><a id="wtype">Haze</a></li>
+                <li class="data"><a id="pdigit">18</a></li>
+                <li class="data"><a id="wspeed">345</a></li>
+                <li class="data">
+                    <a id="long">24.1 </a>,
+                    <a id="lati">84.54</a>
+                </li>
+            </ul>
+            <div class="maxtemp">
+                <a class="maxtemp">Min Temp</a>
+                <br><a class="maxtemp" id="maxdigit">7</a>°C
+            </div>
+            <div class="mintemp">
+                <a class="mintemp">Max Temp</a>
+                <br><a class="mintemp" id="mindigit">7</a>°C
+            </div>
+        </div>
+<script src="main.js" type="text/javascript"></script>
+
+</body>
+</html>

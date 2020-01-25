@@ -1,0 +1,290 @@
+@media (orientation:portrait){ 
+    body{
+        background-image: url(https://drive.google.com/uc?id=1RPMBQ9fZ0-8igkv0K-MEAok0tZNf5Wfv);
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0;
+        position: fixed;
+
+    }
+    .heading{
+        font-family: 'Lobster', cursive;
+        text-align:center;
+        font-size:7vh;
+        padding-top:10px;
+        top:-3.5vh;
+    }
+    #d1{
+        display: none;
+        margin-left: -6vw;
+        margin-top: 1.5vw;
+    }
+    #line{
+        margin:15vh 0 0 ;
+        position:fix;
+    
+    } 
+    #inputs{
+        border: dashed;
+        background-color: transparent;
+        text-align:center;
+        margin-top:3.5vh;
+        border-radius:100px;
+        color:white;
+        outline:none;
+        font-size:5vh;
+        width:60vw;
+        height:6vh;
+        position:relative;
+    }
+    #heading{
+        color: crimson;
+        text-align:center;
+        font-family: 'Spicy Rice', cursive;
+        margin:5vh 0 0;
+        size:fixed;
+        width:100%;
+        height:100%;
+        padding-left:-2vw;
+        font-size:12vw;
+    }
+    #main_page{
+        width:100%;
+        margin-left: 5vw;
+        height:100%;
+    }
+    #searchbox{
+        width:100%;
+        height:100%
+    }
+    #sub-head{
+        font-size:12vw;   
+        color: darkcyan;        
+        font-family: 'Charm', cursive;
+    }
+    .sbutton{
+        font-size: 23vw;
+        text-align: center;
+        margin-left: 7vw;
+    }
+    .sbutton:hover{
+        color:Dodgerblue;
+        font-size:16vh;
+    }
+    .footer{
+        bottom:0;
+    }
+    /*+++++++++++++++++++About Us++++++++++++*/
+    .circle1 {
+        position: relative;
+        margin-top: 25vh;
+        margin-left: 30vw;
+        border-radius: 50%;
+        font-size: 10vh;
+        z-index: 3;
+    }
+    .menu-items1{
+        height:12.195121951219512vh;
+        width: 5.882352941176471vw;
+        position:absolute;
+        margin:auto;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+    }
+    .menu-items1>div {
+        background-color: white;
+        height: 15vw;
+        width: 15vw;
+        border-radius: 50%;
+        position: relative;
+        font-size: 6vh;
+        transition: 0.5s linear;
+    }
+    .fa{
+        position:relative;
+        top:2.556390977443609vh;
+    }
+    a{
+        color:tomato;
+    }
+    .item1{
+        bottom: -9.1vw;    }
+    .item2{
+        bottom: 5.9vw;
+    }
+    .item3{
+            bottom: 21vw;
+
+    }
+    .item4{
+        bottom: 36vw;
+    }
+    .menu-items1>div:hover{
+        background: tomato;
+    }
+    .menu-items1>div:hover a{
+        color:white;
+    }
+    .profile{
+        border-radius:100% 
+    }
+    .dev{
+        padding-top: 3.5vw;
+        font-size: 8vw
+    }
+    /*++++++++++End Of About Us++++++++++++++++*/
+    /*++++++++++Start of Popup ++++++++++++++++*/
+    .popup{
+        border-radius: 43px;
+        width: 83vw;
+        height: 86vh;
+        margin-left: 10vw;
+        margin-top: 2.5vh;
+        background-color: white;
+        position: fixed;
+    }
+    .mintemp{
+        position: relative;
+    }
+    .head2{    
+        font-family: 'Fondamento', cursive;
+        margin-left: 12vw;
+        position: fixed;
+        font-size: 7vw;
+        margin-top: 6vh;
+    }
+    #country{
+        margin-top: 1.5vh;
+        margin-left: 2.5vw;
+        font-size: 5vw;
+    }
+    #flag{
+        margin-left: 72vw;
+        margin-top: -4vh;
+        width: 6.918918918918919vw;
+        height: 6.918918918918919vw;
+    }
+    /*++++++++++++++++++++Other Weather Details+++++++++++++++++*/
+    #ul{
+        font-family: 'Roboto Slab', serif;
+        margin-left: 7.5vw;
+        position: absolute;
+        margin-top: 19vh;
+    }
+    #ul>li{
+        font-size: 3vw;
+        display: block;
+        float: left;
+        margin: 1vw;
+        padding: 3px;
+    }
+    #ul1{
+        font-family: 'Roboto Slab', serif;
+        margin-left: 13vw;
+        position: absolute;
+        margin-top: 23vh;
+    }
+    #ul1>li{
+        font-family: 'Roboto Slab', serif;
+        font-size: 3vw;
+        display: block;
+        float:left;
+        margin-left: 0.4vw;
+        padding:3px;
+    }
+    #wtype{
+        padding: 0px 3vw;
+        margin-left: -2vw;
+    }
+    #pdigit{
+        padding: 0 3vh;
+        margin-left: 4vw;
+    }
+    #wspeed{
+        width: 100%;
+        text-align: center;
+        padding-left: 2vw;
+        padding-right: 3vw;
+    }
+    #long{
+        padding: 0 1vw;
+
+    }
+    #lati{
+        padding: 0 0.5vw;
+
+    }
+    #htext{
+        position: inherit;
+
+    }
+    /*++++++++++++++++++++end Other Weather Details+++++++++++++++++*/
+    #temp-digit{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 15vw;
+        margin-top: 26vh;
+        height: 18vw;
+        font-size: 17vw;    
+    }
+    #hum-num{
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        font-size: 15vw;
+        margin-top: 59vh;    
+     }
+    #unit{
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        margin-top: 53.5vh;
+        font-size: 8vw;
+    }
+    #mindigit{
+        margin-left: 42vw;
+    }
+    #maxdigit{
+        margin-left: 12vw;
+
+    }
+    .maxtemp{
+        width: 100%;
+        position: relative;
+        margin-top: 80vh;
+        font-size: 4vw;
+        margin-left: 6vw;
+        color:sandybrown;
+    }
+    .mintemp{
+        position: relative;
+        margin-left: 37vw;
+        margin-top: -9.5vw;
+        font-size: 4vw;
+        color:sandybrown;
+    }
+    #city{
+        font-size: 4.5vh;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        margin-top: 18vh;
+    }
+    #exit{
+        font-size: 5vw;
+        padding-top: 1.5vw;
+        color: white;
+        padding-left: 93vw;
+    }
+    #temp-unit{
+        font-size: 7vw;
+        text-align: center;
+        margin-top:-13vw;
+    }
+    
+    
+    /*++++++++++  End Of Popup ++++++++++++++++*/
+}
